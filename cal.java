@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class cal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter x: ");
+        System.out.println("Enter your first number: ");
         int x = scanner.nextInt();
 
-        System.out.println("Enter x: ");
+        System.out.println("Enter your second number: ");
         int y = scanner.nextInt();
 
         System.out.println("Enter the operation (+, -, *, /) :  ");
@@ -25,7 +25,7 @@ public class cal {
             case "/": c = objectCalculator.div();
             break;
             default:
-                System.out.println("Invalid operation code! ");
+                System.out.println("Invalid operation! ");
 
         }
         System.out.println(x + operation + y + " = " +c);

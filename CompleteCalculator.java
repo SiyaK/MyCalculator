@@ -30,7 +30,7 @@ public class CompleteCalculator {
             System.out.println("The answer is: " +div(x,y));
         }
         else {
-            System.out.println("You are out of range ");
+            System.out.println("Invalid operation ");
         }
 
     }
